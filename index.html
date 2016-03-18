@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Past Climate</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/main.css" rel="stylesheet" />
+	<script src="js/lib/require.js"></script>
+	<script src="js/config.js"></script>
+</head>
+<body>
+	<div id="app">
+		<h1>Past Climate</h1>
+		<div id="pastSearches"></div>
+		<div id="search">
+			<div id="error"></div>
+			<form>
+				<label for="address">Address</label>
+				<input type="text" id="address" placeholder="1A Page Street, London, SW1P 4PQ" />
+				<button>Search</button>
+			</form>
+		</div>
+		<div id="display">
+			<h3>Address: <span id="address-title">1A Page Street, London, SW1P, 4PQ</span></h3>
+			<h3>Position: <span id="lon"></span><span id="lat"></span></h3>
+			<div id="historical">
+				<h2>Past Weather</h2>
+				<table>
+					<tr>
+						<td>Avg. Temperature:</td>
+						<td class="temp"></td>
+					</tr>
+					<tr>
+						<td>Avg. Humidity:</td>
+						<td class="humidity"></td>
+					</tr>
+					<tr>
+						<td>Sample Size:</td>
+						<td class="days"></td>
+					</tr>
+				</table>
+			</div>
+			<div id="current">
+				<h2>Current Weather</h2>
+				<table>
+					<tr>
+						<td>Temperature:</td>
+						<td class="temp"></td>
+					</tr>
+					<tr>
+						<td>Humidity:</td>
+						<td class="humidity"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>	
+</html>

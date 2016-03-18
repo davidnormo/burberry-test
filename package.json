@@ -1,0 +1,11 @@
+{
+  "name": "PastClimate",
+  "version": "0.1.0",
+  "author": "David Normington <david.normo@gmail.com>",
+  "description": "An historical weather application, that checks a specific location's past weather reports.",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-dox": "^0.5.0",
+    "grunt-serve": "0.1.6"
+  }
+}
